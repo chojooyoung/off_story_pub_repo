@@ -1,0 +1,6 @@
+@mixin font($sz: 16px, $lh: 1.5, $ls: -0.02em, $color: $COLOR_PRIMARY) {
+	font-size: $sz;
+	line-height: $lh;
+	letter-spacing: $ls;
+	color: $color
+}
