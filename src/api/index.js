@@ -2,7 +2,7 @@ import axios from 'axios'
 import store from '~/store/index'
 import { setInterceptors } from './common/interceptors'
 
-const API_END_POINT = 'http://13.209.30.200:5000'
+const API_END_POINT = 'https://learn.programmers.co.kr:5000'
 
 function createInstance() {
   const instance = axios.create({
