@@ -52,10 +52,6 @@ function userDetailInfo(userId) {
   return instance.get(`/users/${userId}`)
 }
 
-// function updateUserDetailInfo(userData) {
-//   // console.log('userid:', `users/${userId}`)
-//   return instance.put('/users/settings/update-user', userData)
-// }
 
 function updateCoverImage(userData) {
   return instance.post('/users/upload-photo', userData)
